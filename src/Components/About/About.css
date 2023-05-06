@@ -1,0 +1,74 @@
+.about__right .banner__btn button:last-child {
+    display: none;
+}
+
+.about__right .banner__btn{
+    justify-content: start;
+}
+
+.about__animate{
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes example {
+      0% {left: 0;}
+      50% {left: 95%;}
+      100%{left:0}
+    }
+
+.about__img span{
+    animation-duration: 2.8s;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: absolute;
+    height: 10px;
+    width: 50px;
+}
+
+.about__img span.en{
+    animation-name: imageMove1;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(260deg, #65C39B 1.36%, rgba(53, 89, 90, 0) 100%);
+}
+
+.about__img span.to{
+    animation-name: imageMove2;
+    height: 50px;
+    width: 10px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background: linear-gradient(0deg, #65C39B 1.36%, rgba(53, 89, 90, 0) 100%);
+}
+.about__img span.te{
+    animation-name: imageMove3;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    background: linear-gradient(91.27deg, #65C39B 1.36%, rgba(53, 89, 90, 0) 100%);
+}
+.about__img span.fo{
+    animation-name: imageMove4;
+    height: 50px;
+    width: 10px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    background: linear-gradient(180deg, #65C39B 1.36%, rgba(53, 89, 90, 0) 100%);
+}
+
+@keyframes imageMove1{
+    0%{left: 0; top: 0;} 100%{left: 100%; top: 0;}
+}
+
+@keyframes imageMove2{
+    0%{right: 0; top: 0;} 100%{right: 0; top: 100%;}
+}
+
+@keyframes imageMove3{
+    0%{right: 0; top: calc(100% - 10px);} 100%{right: 100%; top: calc(100% - 10px);}
+}
+
+@keyframes imageMove4{
+    0%{left: 0; bottom: 0;} 100%{left: 0; bottom: 100%;}
+}

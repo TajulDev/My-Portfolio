@@ -1,0 +1,29 @@
+.progress-bar::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: calc(100% - (var(--progress) * 1%));
+    height: 100%;
+    background-color: #e6e6e6;
+    z-index: -1;
+  }
+
+svg.CircularProgressbar {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+}
+
+path.CircularProgressbar-path{
+  stroke: #72E1AD !important;
+}
+
+path.CircularProgressbar-trail{
+  stroke: #2D494E !important;
+}
+
+text.CircularProgressbar-text{
+  fill: #B4B3C1 !important;
+  font-size: 20px !important;
+}

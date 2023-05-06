@@ -1,0 +1,7 @@
+.nav__bar ul li:hover{
+    color: #72E2AE;
+}
+
+.open{
+    transform: scaleX(1);
+}

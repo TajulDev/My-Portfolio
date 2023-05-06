@@ -1,0 +1,6 @@
+.service__section .service:hover span{
+    height: 65px;
+    width: 65px;
+    font-size: 70px;
+}
+
