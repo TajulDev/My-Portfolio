@@ -13,7 +13,7 @@ import './Banner.css'
 
 const Banner = () => {
     return (
-        <section className='banner__section pb-[80px] pt-[140px] lg:pt-[0] h-[100%] lg:h-[85vh] flex'>
+        <section className='banner__section pb-[80px] pt-[140px] lg:pt-[0] h-[100%] lg:h-[75vh] flex'>
             <div className='container'>
                 <div className='banner__inner'>
                     <div className='flex-wrap lg:flex items-center'>

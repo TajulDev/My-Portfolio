@@ -13,7 +13,7 @@ const MobileMenu = ({clicked,setClicked}) => {
             </h3>
 
             <ul>
-                <li className='text-[24px] mb-[20px] ps-[10px] pb-[10px] border-b-[1px] border-[#4c4a4a]'><a href="#!">Home</a></li>
+                <li className='text-[24px] mb-[20px] ps-[10px] pb-[10px] border-b-[1px] border-[#4c4a4a]'><a href="#">Home</a></li>
                 <li className='text-[24px] mb-[20px] ps-[10px] pb-[10px] border-b-[1px] border-[#4c4a4a]'><a href="#about">About</a></li>
                 <li className='text-[24px] mb-[20px] ps-[10px] pb-[10px] border-b-[1px] border-[#4c4a4a]'><a href="#work">Work</a></li>
                 <li className='text-[24px] mb-[20px] ps-[10px] pb-[10px] border-b-[1px] border-[#4c4a4a]'><a href="#contact">Contact</a></li>
