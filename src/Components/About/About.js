@@ -20,7 +20,7 @@ const About = () => {
         {
             id: 3,
             span1: 'Age',
-            span2: '34 Years',
+            span2: '36 Years',
         },
         {
             id: 4,
@@ -66,7 +66,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className='about__right w-[100%] lg:w-[50%] ps-[0] lg:ps-[]'>
-                            <h4 className='text-[28px] text-[#fff] font-bold mb-[20px]'>Hi, I am <span className='text-[#72E2AE]'>Abir Islam</span></h4>
+                            <h4 className='text-[28px] text-[#fff] font-bold mb-[20px]'>Hi, I am <span className='text-[#72E2AE]'>Tajul Islam</span></h4>
 
                             <ul className='text-[#BFBECB] text-[17px] font-[600] mb-[20px]'>
                                 {
