@@ -14,6 +14,9 @@ import work7 from '../../Images/Works/Project7.png'
 import work8 from '../../Images/Works/Project8.png'
 import work9 from '../../Images/Works/Project9.png'
 import work10 from '../../Images/Works/Project10.png'
+import work11 from '../../Images/Works/wordpress1.png'
+import work12 from '../../Images/Works/wordpress2.png'
+import work13 from '../../Images/Works/wordpress3.png'
 
 const Datas = [
   {
@@ -57,6 +60,26 @@ const Datas = [
     git: "#!",
   },
   {
+    id: 11,
+    Name: "Karotoa Courier Service",
+    image:work11,
+    Category: "Wordpress",
+    Type: 'Business',
+    Conv: "Theme Customization",
+    live: "https://karotoa.com/",
+    git: "#!",
+  },
+  {
+    id: 12,
+    Name: "Construction",
+    image:work12,
+    Category: "Wordpress",
+    Type: 'Business',
+    Conv: "Theme Customization",
+    live: "https://www.greenhillsbd.com/",
+    git: "#!",
+  },
+  {
     id: 4,
     Name: "Crypto NFT",
     image:work4,
@@ -94,6 +117,16 @@ const Datas = [
     Type: "E-Commerce",
     Conv: "Sketch to HTML",
     live: "https://soft-pithivier-dfdd1b.netlify.app",
+    git: "#!",
+  },
+  {
+    id: 13,
+    Name: "Graphic Items",
+    image:work13,
+    Category: "Wordpress",
+    Type: 'Items',
+    Conv: "Theme-Customization",
+    live: "https://graphicitem.com/",
     git: "#!",
   },
   {
@@ -142,7 +175,7 @@ const WorkFilter = () => {
             <button onClick={() => filterItem("React")}>REACT JS</button>
           </li>
           <li className="">
-            <button onClick={() => filterItem("Dinner")}>WORDPRESS</button>
+            <button onClick={() => filterItem("Wordpress")}>WORDPRESS</button>
           </li>
         </ul>
       </div>
